@@ -13,11 +13,15 @@ DAISOの商品をネットでも購入したい一般の利用者に向けて、
 **特徴3：**  
 大量購入ではなく、必要な商品を1点から購入したい人に向けて、少ない個数でも注文できる仕組みを提供している。
 
-### 参考にした記事
+### 参考にしたサイト・記事
 
-以下のShopify公式導入事例を参考に、内容をまとめました。
+DAISOネットストアで実際のサービス内容を確認し、Shopify公式の導入事例も参考にしてまとめました。
 
-https://www.shopify.com/jp/case-studies/daiso
+- DAISOネットストア  
+  https://jp.daisonet.com/
+
+- Shopify公式導入事例  
+  https://www.shopify.com/jp/case-studies/daiso
 
 ---
 
