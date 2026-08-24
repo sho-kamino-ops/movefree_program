@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+/* kadai9-3.css の内容 */
+body {
+    font-family: "メイリオ", Meiryo, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: rgb(230, 240, 250);
+}
+
+h1 {
+    color: #800080;  /* 紫色*/
+    text-align: center;
+    border-bottom: 2px solid #20a39e;  /* 青みどり色　*/
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    font-size: 48px;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    display: inline-block; /* ラベルと入力欄を同じ行にするため */
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #42df22;
+    border-radius: 16px;
+    box-sizing: border-box; /* paddingとborderをwidthに含める */
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color: darkgreen;
+    color: white;
+    padding: 8px 42px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* ホバー時のアニメーション */
+}
+
+input[type="submit"]:hover {
+    background-color: #218838; /* ホバーで少し濃い緑に */
+}
+
+p {
+    background-color: rgba(255, 200, 100, 0.5);
+}
