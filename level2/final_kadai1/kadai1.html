@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Level2 最終課題 | 神野翔</title>
+    <link rel="stylesheet" href="kadai1.css" />
+  </head>
+  <body>
+    <h1>神野翔</h1>
+
+    <h2>「自己紹介」</h2>
+    <p>福島県出身で、現在東京都在住、神野翔と申します。</p>
+    <p>高校卒業後、地元で10年近く働き、28歳の時に上京しました。</p>
+    <p>年齢33歳で、趣味は散歩、好きなバンドのライブに行く事、旅行です。</p>
+
+    <img
+      src="images/my_photo.jpg"
+      alt="プロフィール写真"
+      class="profile-pic"
+      width="150"
+      height="150"
+    />
+
+    <h2>「スキル」</h2>
+    <ul>
+      <li>Figma</li>
+      <li>HTML/CSS</li>
+      <li>Vs Code</li>
+    </ul>
+
+    <p>
+      私の
+      <a
+        href="https://www.instagram.com/skamino2025/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >instagram</a
+      >
+    </p>
+
+    <h2>「経歴」</h2>
+    <table>
+      <caption>
+        私の経歴
+      </caption>
+      <tr>
+        <th>職種</th>
+        <th>経験内容</th>
+      </tr>
+
+      <tr>
+        <td>サービス業</td>
+        <td>接客・サービス業務に従事</td>
+      </tr>
+
+      <tr>
+        <td>営業職</td>
+        <td>ルートセールスに従事</td>
+      </tr>
+
+      <tr>
+        <td>サービス業</td>
+        <td>接客・サービス業務に従事</td>
+      </tr>
+
+      <tr>
+        <td>工場勤務</td>
+        <td>医療品のチューブ作成</td>
+      </tr>
+
+      <tr>
+        <td>カスタマーサポート</td>
+        <td>お客様対応・サポート業務に従事</td>
+      </tr>
+    </table>
+
+    <h2>お問い合わせフォーム</h2>
+    <form>
+      <div>
+        <label for="name">お名前 <span style="color: red">*</span></label
+        ><br />
+        <input
+          type="text"
+          id="name"
+          name="user_name"
+          placeholder="神野翔"
+          required
+        />
+      </div>
+      <div>
+        <label for="email"
+          >メールアドレス<span style="color: red">*</span></label
+        ><br />
+        <input
+          type="email"
+          id="email"
+          name="user_email"
+          placeholder="info@example.com"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="message"
+          >お問い合わせ内容 <span style="color: red">*</span></label
+        ><br />
+        <textarea
+          id="message"
+          name="user_message"
+          rows="5"
+          placeholder="お問い合わせ内容を具体的にご記入ください。"
+          required
+        ></textarea>
+
+        <div>
+          <input type="submit" value="送信する" />
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
