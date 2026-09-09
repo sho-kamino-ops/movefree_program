@@ -185,3 +185,122 @@ footer {
   background-color: #243447;
   color: #ffffff;
 }
+
+@media screen and (max-width: 768px) {
+
+  main {
+    width: auto;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+
+  .site-title {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  nav {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 16px;
+    gap: 12px 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav a {
+    white-space: nowrap;
+  }
+
+  #about {
+    margin-top: 48px;
+  }
+
+  #about h1 {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+
+  .about-content {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .about-text {
+    width: 100%;
+  }
+
+  .about-image {
+    width: 100%;
+    height: auto;
+  }
+
+  #skills {
+    margin-top: 64px;
+  }
+
+  .skill-list {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .skill-item img {
+    width: 100%;
+    height: auto;
+  }
+
+  #career {
+    margin-top: 64px;
+  }
+
+  #career table {
+    table-layout: auto;
+    font-size: 12px;
+  }
+
+  #career th,
+  #career td {
+    padding: 10px 4px;
+  }
+
+  #hobbies {
+    margin-top: 64px;
+  }
+
+  .hobby-list {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .hobby-item img {
+    width: 100%;
+    height: auto;
+    margin-top: 16px;
+  }
+
+  #learning {
+    width: 100%;
+    margin-top: 64px;
+  }
+
+  #contact {
+    width: 100%;
+    margin-top: 64px;
+  }
+
+  #contact form {
+    width: 100%;
+    max-width: 282px;
+  }
+
+  footer {
+    margin-top: 64px;
+  }
+}
