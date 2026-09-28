@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/* アニメーションの設計図を定義 */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* 開始時は20px下にいる */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* 終了時は元の位置に */
+    }
+}
+
+.fade-in-up {
+    opacity: 0; /* アニメーションが適用されていないときの状態 */
+    /* アニメーションを適用 */
+    animation: fadeInUp 0.8s ease-out forwards;
+    /* forwardsでアニメーション終了後もスタイルを維持 */
+}
